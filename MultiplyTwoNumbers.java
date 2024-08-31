@@ -1,4 +1,6 @@
-public class MultiPlyTwoNumbers {
+/*
+
+public class MultiplyTwoNumbers {
   public static void main(String[] args) {
     int num1 = 4;
     int num2 = 7;
@@ -7,14 +9,16 @@ public class MultiPlyTwoNumbers {
   }
 }
 
-//  Improvement of abouve code
+ */
+
+// Improvement of abouve code
 
 public class MultiplyTwoNumbers {
   public static void main(String[] args) {
     int num1 = 4;
     int num2 = 7;
     int product = num1 * num2;
-    System.out.println("The product of " + num1 + " and " + num2 " is: " + product);  
+    System.out.println("The product of " + num1 + " and " + num2 +" is: " + product);  
   }
 }
 

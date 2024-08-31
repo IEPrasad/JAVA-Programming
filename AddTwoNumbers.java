@@ -1,4 +1,4 @@
-import java.utill.Scanner;
+import java.util.Scanner;
 
 public class AddTwoNumbers {
   public static void main(String[] args) {
@@ -11,7 +11,7 @@ public class AddTwoNumbers {
     int num2 = scanner.nextInt();
 
     int sum = num1 + num2;
-    System.out.println("The sum of " + num1 + " and " + num2 " is: " + sum);
+    System.out.println("The sum of " + num1 + " and " + num2 + " is: " + sum);
 
     scanner.close();
   }
