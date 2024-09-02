@@ -1,4 +1,4 @@
-// Person class demonstrating encapsulation
+// Person class demonstrating encapsulation 
 public class Person {
   // Private fields 
   private String name;
@@ -40,11 +40,11 @@ public class Person {
     System.out.println("Name: " + name + ", Age: " + age); 
   }
 
-}
 
 
-// Main class to test encapsulation
-public class Person{
+
+  // Main class to test encapsulation
+
   public static void main(String[] args) {
     // Create an instance of Person
     Person persn = new Person("John Doe", 30);
@@ -59,5 +59,3 @@ public class Person{
   }
 
 }
-
-
