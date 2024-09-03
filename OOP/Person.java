@@ -58,4 +58,5 @@ public class Person {
     persn.displayInfo();
   }
 
-}
+}can you give me the code for the encapsulation in the JAVA 
+with file name 
