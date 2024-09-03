@@ -53,3 +53,31 @@ public class Person_encapsulation {
 
   }
 }
+
+
+/*
+Explanation:
+
+    Private Fields: name and age are private, meaning they cannot be accessed directly from outside the class.
+    Getters and Setters: Public methods that provide controlled access to the private fields.
+    Main Method: Used to create an instance of Person_encapsulation, modify its fields, and display the results.
+
+Steps to Compile and Run:
+
+    Save the code in a file named Person_encapsulation.java.
+    Open your terminal and navigate to the directory containing Person_encapsulation.java.
+    Compile the file:
+
+    bash
+
+javac Person_encapsulation.java
+
+Run the compiled class:
+
+bash
+
+    java Person_encapsulation
+
+This will compile and run the program, displaying the updated person information.
+
+*/
