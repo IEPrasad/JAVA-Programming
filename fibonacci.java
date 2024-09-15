@@ -1,10 +1,20 @@
+// fibonacci.java
 public class fibonacci {
-    public static void main(Strings[] args) {
+    public static void main(String[] args) {
         int a = 0;
         int b = 1;
-        int c = 1;
+        int c;
 
-    System.out.println(a, b, c);
+        // Printing first two numbers
+        System.out.print(a + ", " + b);
+
+        // Print the Fibonacci series for the next 8 numbers
+        for (int i = 0; i < 8; i++) {
+            c = a + b;
+            System.out.print(", " + c);
+            a = b;
+            b = c;
+        }
     }
 }
 
