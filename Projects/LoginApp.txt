@@ -35,3 +35,29 @@ Instructions for Creating a User Login Interface and Login Application in Java:
     GUI Design:
         Position the components using a layout manager (e.g., FlowLayout, GridBagLayout).
         Make the login interface responsive and easy to use.
+----------------------------------------------------------------------------------------
+
+How the code works:
+
+    JFrame: Creates the main window (login interface).
+    JPanel: Holds the input fields (username and password).
+    JLabel: Displays the text labels (e.g., "Username").
+    JTextField: Allows the user to input their username.
+    JPasswordField: A secure text field for password input.
+    JButton: Represents the "Login" button.
+    ActionListener: Defines what happens when the "Login" button is clicked (checks the username and password).
+
+----------------------------------------------------------------------------------------
+
+Instructions for the code:
+
+    Save this code in a file named LoginApp.java.
+    Compile and run it using the following commands:
+
+commands:
+    javac LoginApp.java
+    java LoginApp
+
+Once run, a simple login window will appear. When you enter "admin" as the username and "password123" as the password, it will show a "Login successful!" message. 
+Otherwise, it will show an "Invalid username or password" message.
+
