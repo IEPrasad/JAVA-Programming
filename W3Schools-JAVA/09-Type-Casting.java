@@ -68,3 +68,5 @@ Convert userScore to float to make sure that the division is accurate */
 float percentage = (float) userScore / maxScore * 100.0f;
 
 System.out.println("User's percentage is " + percentage);
+
+  
