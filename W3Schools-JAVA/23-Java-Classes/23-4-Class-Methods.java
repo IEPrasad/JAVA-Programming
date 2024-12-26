@@ -129,3 +129,52 @@ Example
   ** To call a method in Java, write the method name followed by a set of parentheses (), followed by a semicolon (;).
 
   ** A class must have a matching filename (Main and Main.java).
+
+
+---
+
+Using Multiple Classes 
+
+  ** Like we specified in the Classes chapter, it is a good practice to create an object of a class and access it in another class. 
+
+  ** Remember that the name of the java file should match the class name. In this example, we have created two files in the same directory:
+
+    Main.java
+    Second.java
+
+Main.java
+
+  public class Main {
+    public void fullThrottle() {
+      System.out.println("The car is going as fast as it can!");
+    }
+
+    public void speed(int maxSpeed) {
+      System.out.println("Max speed is: " + masSpeed);
+    }
+  }
+
+Second.java
+
+  public class Second {
+    public static void main(String[] args) {
+      Main myCar = new Main();    // Create a myCar object
+      myCar.fullThrottle();       // Call the fullThrottle() method
+      myCar.speed(320);           // Call the speed() method
+    }
+  }
+
+
+  ** When both files have been compiled:
+
+    C:\Users\Your Name>javac Main.java
+    C:\Users\Your Name>javac Second.java
+
+  ** Run the Second.java file:
+
+    C:\Users\Your Name>java Second
+
+  ** And the output will be: 
+
+    The car is going as fast as it can!
+    Max speed is: 320 
